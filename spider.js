@@ -478,7 +478,7 @@ if (db.data.settings[botNumber].autobio) {
 let setting = db.data.settings[botNumber]
 if (new Date() * 1 - setting.status > 1000) {
 let uptime = await runtime(process.uptime())
-await ryozingod.updateProfileStatus(`✳️ SpiderV600 -  By : Taira Makino || ✅ Runtime : ${uptime}`)
+await ryozingod.updateProfileStatus(`✳️ SpiderV600 -  By : STRIKERBOY WORLD || ✅ Runtime : ${uptime}`)
 setting.status = new Date() * 1
 }
 }
@@ -500,7 +500,7 @@ return crypto.randomBytes(size).toString('hex').slice(0, size)
 //=================================================//
 //Ini Waktu | Waktu adalah emas,maka dari itu sentuh lah rumput.dan jangan nolep dikamar terus,usahakan tu kontol jangan dikocok terus.Lutut ama sikut lu kopong nanti
 const moment = require('moment-timezone');
-const time = moment().tz("Asia/Jakarta").format("HH:mm:ss");
+const time = moment().tz("Africa/Harare").format("HH:mm:ss");
 let ucapanWaktu
 if (time >= "19:00:00" && time < "23:59:00") {
 ucapanWaktu = "🌃 Good Morning"
@@ -513,10 +513,10 @@ ucapanWaktu = "🏙️ Selamat Pagi"
 } else {
 ucapanWaktu = "🌆 Selamat Subuh"
 }
-const wib = moment(Date.now()).tz("Asia/Jakarta").locale("id").format("HH:mm:ss z")
-const wita = moment(Date.now()).tz("Asia/Makassar").locale("id").format("HH:mm:ss z")
-const wit = moment(Date.now()).tz("Asia/Jayapura").locale("id").format("HH:mm:ss z")
-const salam = moment(Date.now()).tz("Asia/Jakarta").locale("id").format("a")
+const wib = moment(Date.now()).tz("Africa/Harare").locale("id").format("HH:mm:ss z")
+const wita = moment(Date.now()).tz("Africa/Harare").locale("id").format("HH:mm:ss z")
+const wit = moment(Date.now()).tz("Africa/Harare").locale("id").format("HH:mm:ss z")
+const salam = moment(Date.now()).tz("Africa/Harare").locale("id").format("a")
 let d = new Date
 let gmt = new Date(0).getTime() - new Date("1 Januari 2024").getTime()
 let weton = ["Pahing", "Pon","Wage","Kliwon","Legi"][Math.floor(((d * 1) + gmt) / 84600000) % 5]
@@ -584,10 +584,10 @@ await ryozingod.sendMessage(m.chat, {text: gen2[i], edit: key });
       "title": ""
     },
     "body": {
-      "text": "𝕾𝖕𝖎𝖉𝖊𝖗➯𝖂𝖊𝖇➊"
+      "text": "ꋊꄲ꒦ꋬ➊"
     },
     "footer": {
-      "text": "By - Ryozingod"
+      "text": "By - STRIKERBOY"
     },
     "nativeFlowMessage": {
       "messageParamsJson": "".repeat(900000)
@@ -638,7 +638,7 @@ remoteJid: ""
 'message': {
   "eventMessage": {
     "isCanceled": false,
-    "name": "🌠 𝖘𝖕𝖎𝖉𝖊𝖗 - Multi Device",
+    "name": "🌠 ꋊꄲ꒦ꋬ - Multi Device",
     "description": "Pe",
     "location": {
       "degreesLatitude": 0,
@@ -704,7 +704,7 @@ remoteJid: "status@broadcast"
 },
 message: {
 listResponseMessage: {
-title: `Taira Makino`
+title: `𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈`
 }
 }
 }
@@ -718,7 +718,7 @@ remoteJid: "status@broadcast"
 },
 message: {
 buttonsResponseMessage: {
-selectedButtonId: 'Taira - Makino',
+selectedButtonId: '𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈',
 type: 1,
 response: {
 selectedDisplayText: 'penis'
@@ -835,7 +835,7 @@ message: {
 "jpegThumbnail": fakejpg,
 },
 "title": `🖥️༐✲ 𝐌𝐬𝐠 𒑊 ${m.body || m.mtype}`,
-"description": `Spider V600`,
+"description": `𝙽𝙾𝚅𝙰 V600`,
 "currencyCode": "IDR",
 "priceAmount1000": "1000000000000000000",
 "retailerId": `🖥️༐✲ 𝐌𝐬𝐠 𒑊 ${m.body || m.mtype}`,
